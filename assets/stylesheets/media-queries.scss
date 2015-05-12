@@ -1,0 +1,78 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+    .section.lead {
+      padding: 0px;
+    }
+
+    .section.lead .col-sm-12 {
+      padding: 0px;
+    }
+
+    .section h2 {
+      margin: auto 15px;
+    }
+
+    .col-sm-12 {
+      float: none;
+      width: 100%;
+      padding: 25px;
+    }
+
+    .col-lg-4 {
+      float: none;
+      width: auto;
+      padding: 5px 15px;
+    }
+
+    .img-home-portfolio, .img-customer, .portfolio-item {
+      margin-bottom: 0px;
+    }
+
+    footer {
+      margin: 40px 30px;
+    }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .section.lead {
+      padding: 0px;
+    }
+    .section.lead .col-md-12 {
+      padding: 0px;
+    }
+
+    .section.lead .col-md-6 {
+      padding: 0px;
+    }
+
+    .section h2 {
+      margin: auto 15px;
+    }
+
+    .col-md-12 {
+      padding: 25px;
+    }
+
+    .col-lg-4 {
+      float: left;
+      width: 33.33%;
+      padding: 5px 15px;
+    }
+
+    .img-home-portfolio, .img-customer, .portfolio-item {
+      margin-bottom: 0px;
+    }
+
+    footer {
+      margin: 40px 30px;
+    }
+
+}
+
